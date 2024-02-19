@@ -13,5 +13,9 @@ const color = prompt('Quale è il tuo colore preferito?');
 console.log(color);
 
 //4.
-const password = firstName + lastName + color + '24'
+const password = firstName + lastName + color + '24';
 
+//5. 
+document.getElementById('password').innerHTML =`
+<p>
+  Questo è il tuo password insicurissmo: ${firstName + lastName + color}24</p>`;
